@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import img1 from '../../Image/img1.jpg'
 import img2 from '../../Image/img2.jpg'
@@ -13,6 +14,8 @@ const MyProject = () => {
         <div className='grid lg:grid-cols-4 gap-6 md:grid-cols-2 sm:grid-cols-1 mt-16'>
             <div className="card card-compact w-96 bg-base-100 shadow-xl m-3">
                 <figure><img src={img1} style={{ width: '400px', height: '300px' }} alt="Shoes" /></figure>
+
+
                 <div className="card-body">
                     <h2 className="card-title text-2xl">Dental service-
                         Zone</h2>
@@ -20,15 +23,9 @@ const MyProject = () => {
                         JavaScript, Node JS, React - Bootstrap ,
                         Firebase, MongoDB and etc and Responsiveness added for mobile or desktop
                         devices</p>
-
-
-                    <a className='btn btn-outline btn-primary' href="https://b6a11-service-review-cli-b4678.web.app/" alt=''>Web Site Link</a>
-                    <a className='btn btn-outline btn-primary' href="https://github.com/sohelrana2250/service-
-review-client-side-11.git" alt=''>Project Git-Link</a>
-                    <a className='btn btn-outline btn-primary' href="https://github.com/sohelrana2250/service-
-review-server-side-11.git" alt=''>Server-Site Git-Link</a>
-
                 </div>
+
+                <Link to='/details1'>  <button className="btn btn-outline btn-primary">Project Deatis</button></Link>
             </div>
 
             <div className="card card-compact w-96 bg-base-100 shadow-xl m-3">
@@ -43,13 +40,10 @@ review-server-side-11.git" alt=''>Server-Site Git-Link</a>
                         different</p>
 
 
-                    <a className='btn btn-outline btn-success' href="https://b612-used-products-resale.web.app/" alt=''>Web Site Link</a>
-                    <a className='btn btn-outline btn-success' href="https://github.com/sohelrana2250/products-resale-
-clients-side-12.git" alt=''>Project Git-Link</a>
-                    <a className='btn btn-outline btn-success' href="https://github.com/sohelrana2250/products-resale-
-server-side-12.git" alt=''>Server-Site Git-Link</a>
 
                 </div>
+
+                <Link to='/details2'>  <button className="btn btn-outline btn-primary">Project Deatis</button></Link>
             </div>
 
 
@@ -63,11 +57,9 @@ server-side-12.git" alt=''>Server-Site Git-Link</a>
                     </p>
 
 
-                    <a className='btn btn-outline btn-success' href="https://b612-inventory-store.web.app" alt=''>Web Site Link</a>
-                    <a className='btn btn-outline btn-success' href="https://github.com/sohelrana2250/ema-john-simple.git" alt=''>Project Git-Link</a>
-                    <a className='btn btn-outline btn-success' href="https://github.com/sohelrana2250/ema-john-simple-Server.git" alt=''>Server-Site Git-Link</a>
 
                 </div>
+                <Link to='/details3'>  <button className="btn btn-outline btn-primary">Project Deatis</button></Link>
             </div>
 
             <div className="card card-compact w-96 bg-base-100 shadow-xl m-3">
@@ -83,12 +75,9 @@ server-side-12.git" alt=''>Server-Site Git-Link</a>
                         User Accessibility different</p>
 
 
-                    <a className='btn btn-outline btn-accent' href=": https://learning-platform-client-52212.web.app" alt=''>Web Site Link</a>
-                    <a className='btn btn-outline btn-accent' href="https://github.com/sohelrana2250/learning-platform-client-side-
-10.git" alt=''>Project Git-Link</a>
-                    <a className='btn btn-outline btn-accent' href="https://github.com/sohelrana2250/lerning-platform-server-side-10" alt=''>Server-Site Git-Link</a>
 
                 </div>
+                <Link to='/details4'>  <button className="btn btn-outline btn-primary">Project Deatis</button></Link>
             </div>
 
 

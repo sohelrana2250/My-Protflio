@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import image from '../../Image/MyPic.jpg'
 const NavBar = () => {
     return (
         <div className="navbar bg-base-300">
@@ -21,13 +21,22 @@ const NavBar = () => {
                         <li><Link>Item 3</Link></li>
                     </ul>
                 </div>
-                <Link className="btn btn-ghost normal-case text-xl">daisyUI</Link>
+
+                <Link className="btn btn-outline btn-success normal-case text-xl">My Portfolio</Link>
+                <div className="avatar m-3 ">
+                    <div style={{ width: '50px', height: '50px' }} className="rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                        <img src={image} alt='' />
+                    </div>
+                </div>
+
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
 
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/Resume'>Resume</Link></li>
+                    <li><Link to='/about'>About</Link></li>
+                    <li><Link to='/blog'>Blog</Link></li>
                     <li tabIndex={0}>
                         <Link>
                             Parent
@@ -42,7 +51,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link to='/contactMe' className="btn">Conatct Me</Link>
+                <Link to='/contactMe' className="btn btn-outline btn-success">Conatct Me</Link>
             </div>
         </div>
     );
