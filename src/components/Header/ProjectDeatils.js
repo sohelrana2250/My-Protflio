@@ -15,13 +15,16 @@ const ProjectDeatils = () => {
                 <div className="hero min-h-screen ">
                     <div className="hero-content flex-col lg:flex-row">
                         <div >
-                            <h4>Hi, My name is</h4>
-                            <h1 className="mb-5 text-5xl font-bold">Ali Mohammad Sohel Rana</h1>
-                            <h1 className="mb-5 text-4xl font-bold">I build things for the web</h1>
-                            <p className="mb-5">I am web developer.. <br /> a
-                                With Front-end development, web content development, client-side/server-side scripting, in a wide sense, refers to all the actions, updates, and operations required to create, maintain, and administer a website in order to assure its optimal functionality, user experience, and speed.</p>
 
-                            <Link to='/Resume'><button className='btn btn-outline btn-error'>My-Resume</button></Link>
+
+                            <h4 className='mb-5 text-3xl font-bold'>Hello World! </h4>
+                            <h1 className="mb-5 text-5xl font-bold">Ali Mohammad Sohel Rana</h1>
+                            <h1 className="mb-5 text-4xl font-bold">  <b>MERN</b> Stack  Web Developer</h1>
+                            <p className="mb-5 text-xl">Web Developer . From choreography on a stage to lines JavaScript code on a web page, I love combining the worlds of logic and creative design to make eye-catching, accessible, and user- friendly websites and applications.
+
+                                Technology leads, society follows. The move towards increasing inclusivity and diversity in the industry through representation is of importance to me. I'm excited to make the leap and continue refining my skills</p>
+
+                            <Link to='/Resume'><button className='btn btn-outline btn-success'>My-Resume</button></Link>
 
 
 
